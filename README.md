@@ -1,2 +1,2 @@
-# Rebecca_Renavitz_Portfolio
-Basic Portfolio - About Page, Contact Page, Portfolio Page
+# Bootstrap-Portfolio
+Basic Portfolio using Twitter Booststrap

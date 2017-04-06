@@ -4,62 +4,101 @@
 	<head>
 		<title>Contact Rebecca</title>
 		<link rel='stylesheet' href='assets/css/reset.css'/>
-		<link rel='stylesheet' href='assets/css/style.css'/>
+		<link rel='stylesheet' href='assets/css/styleboot.css'/>
 		<link href='https://fonts.googleapis.com/css?family=Miniver' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<meta name='viewport' content='width=device-width,initial-scale=1'>
 	</head>
 	<body>
 	
-		<header>
-			<!--<div id='full_name'>Rebecca Lyn Renavitz
-			</div>-->
-
-			<h1>Rebecca Lyn Renavitz</h1>
-			
-
-			<div id="navbar">
-  				<ul>
-    				<li><a href="index.html">About</a></li>
-    				<li><a href="portfolio.html">Portfolio</a></li>
-    				<li><a href="contact.html">Contact</a></li>
-    			 </ul>
+	<div class="page-header">
+	<div class="container">
+		<div class='row'>
+			<div class="col-lg-3 col-md-4 col-sm-12 col-xs-8">
+			<h3 style="background-color:#4aaaa5;padding:8px; text-align:center;border-radius:25px">Rebecca Lyn Renavitz <span class="label label-default" ></span></h3>
 			</div>
+		</div>
+	</div>
+	</div>
 
-		</header>
 
-		<div class='container'>
-			<div id='form'>
-				<h2 >Contact</h2>
-				<hr>
-				
-				<form>
-					<span style="margin-left:50px">Name:</span><br>
-  					<input type="text" name="name" placeholder="Sophia Petrillo" size="60">
-  					<br><br><br>
-  					<span style="margin-left:50px">Email:</span><br>
-  					<input type="text" name="email" placeholder="sophiap@gmail.com" size="60">
-  					<br><br><br>
-  					<span style="margin-left:50px">Message:</span><br>
-  					<textarea id="msginput" name="message" size="60"></textarea>
-				</form>
-				<br>
-				<button type="submit" form="nameform" value="Submit">Submit</button>
-				
-				
-			</div>		
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    
+    </div>
 
-			<div id='connect'>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
+        <li><a href="contact.html">Contact</a></li>
+     	<li class="active"><a href="index.html">About<span class="sr-only">(current)</span></a></li>
+      </ul>
+      
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class='container'>
+	<div class='row'>
+	<div class="col-lg-7 col-md-6 col-sm-6 col-xs-9">
+	<div class="well" style="width:40% margin:10px">
+<form style="height:400px">
+  <div class="form-group" style=>
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Message:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn .btn-success">Submit</button>
+</form>
+</div>
+</div>
+
+				
+					
+
+			<div class="col-lg-1 col-md-2 col-sm-1 col-sm-12" ></div>	
+				<div class="col-lg-3 col-md-4 col-sm-5 col-xs-4">
+				<div class='well' id="well-connect" style='margin-left:60px width:400px'>
 				<h3>Connect with Me</h3> 
 				<hr>
 				<a href='https://github.com/RebeccaLyn55' style='text-decoration:none' target="_blank"> <img src='assets/images/github.png' alt='Rebecca Renavitz' class="imageHover" id='bio-image2'/>	
 				<a href='http://www.linkedin.com/' style='text-decoration:none' target="_blank"><img src='assets/images/linkedin.png' alt='Rebecca Renavitz' class="imageHover" id='bio-image2'/>
 				<a href='http://stackoverflow.com/' style='text-decoration:none' target="_blank"> <img src='assets/images/stackoverflow.png' alt='Rebecca Renavitz' class="imageHover" id='bio-image2'/> </a>
 			</div>	
-			
-		</div>
+				</div>
+ 			</div>	
+ 		</div>	
+ </div>
 	
-	<footer>
-		<p>@Copyright 2017 Rebecca Lyn Renavitz</p>
-	</footer>
+	
+  <div class="panel-footer">@Copyright 2017 Rebecca Lyn Renavitz</div>
+
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	</body>
 
